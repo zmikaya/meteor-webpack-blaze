@@ -1,0 +1,17 @@
+{
+  "name": "meteor_core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-mounter": "^1.2.0"
+  }
+}
