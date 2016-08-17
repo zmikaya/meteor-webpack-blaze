@@ -1,10 +1,14 @@
-# meteor-webpack-react
+# meteor-webpack-blaze
 
-THis is a Meteor project skeleton where the client (in React) and server get built by Webpack.  In dev mode,
+Originally this was a Meteor project skeleton where the client (in React) and server are built by Webpack.  In dev mode,
 webpack-dev-server is used with react-hot-loader.  There are a bunch of run and build scripts to make things more
-convenient.
+convenient. Due to Meteor's current difficulty with build speed, lack of hot module replacement capability for Blaze, among other
+build related issues, this is now a work to extend this project skeleton to cover Blaze. 
 
-There is a port of the Meteor simple-todos tutorial to this stack on the `simple-todos` branch.
+At present, the idea is to use React to wrap compiled Blaze templates. The existing infrastructure and support for hot module replacement, maintaining state, and live updating help fill the gaps where Blaze support is lacking. The Blaze templates are compiled using spacebars-loader (https://github.com/xamfoo/spacebars-loader).
+
+In short, you can now edit a Blaze template without waiting ages for Meteor to reload. In fact, the browser doesn't even need to refresh.
+
 
 ## Advantages of packaging with Webpack instead of Meteor
 
