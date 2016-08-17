@@ -9,7 +9,7 @@ At present, the idea is to use React to wrap compiled Blaze templates. The exist
 
 In short, you can now edit a Blaze template without waiting ages for Meteor to reload. In fact, the browser doesn't even need to refresh.
 
-<iframe src="//giphy.com/embed/l2Sq1ocoazWoVWPqE" width="480" height="272" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/l2Sq1ocoazWoVWPqE">via GIPHY</a></p>
+![](http://i.giphy.com/l2Sq1ocoazWoVWPqE.gif)
 
 ## Advantages of packaging with Webpack instead of Meteor
 
